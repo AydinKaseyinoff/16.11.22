@@ -6,6 +6,18 @@ body{
   padding: 0;
   background-color: black;
 }
+header{
+  background-image: url(/moon2.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: #fff;
+}
 .navigation{
   display: flex;
   justify-content: center;
@@ -23,18 +35,35 @@ body{
 }
 .navigation a{
   color: white;
+  padding: 2px 20px;
 }
 .navigation li a{
   margin: 19px 30px;
   text-decoration: none;
-  background-color: darkblue;
+  background-color: linear-gradient(to left, #eeb909, #3494E6 ,#eeb909);
   border-radius: 25px;
   font-size: 25px;
   transition: all 700ms;
 }
 .navigation li a:hover{
-  background-color: crimson;
+  background-color: #eeb909
 }
 p{
   color: #fff;
+}
+
+.btn{
+  font-size: 25px;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  list-style-type: none;
+  background: linear-gradient(to left, #eeb909, #3494E6 ,#eeb909);
+  text-decoration: none;
+  padding: 2px 20px;
+  border-radius: 25px;
+  background-size: 90px;
+  transition: all 700ms
+}
+.btn:hover{
+  background-position: right;
 }
